@@ -1,0 +1,142 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 16px;
+}
+
+ul li{
+    list-style: none;
+}
+ul{
+    padding-left :0px !important;
+}
+
+.header-section{
+    background-image: url(../../images/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-text{
+    padding:120px 0;
+}
+
+
+
+/* Section Feature Details */
+
+.section-title{
+    color:#021850;
+}
+
+#featured-storage .heading, #listing-storage .heading{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#featured-storage .details,  #listing-storage .details{
+    font-size: 14px;
+}
+
+.inner-sec{
+    background-color:#F6F8FD ;
+    border-radius: 10px;
+}
+
+.btn-color{
+    background-color:#1849C6 !important;
+    font-size:16px !important;
+}
+
+#listing-storage{
+    background-image: url(../../images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-sec-color{
+    background-color:#FFCE31 !important;
+    font-size:16px !important;
+}
+
+.btn-white-color{
+    background-color:#ffffff !important;
+    font-size:16px !important;
+}
+
+#sale-storage{
+     background-color: #E8EFFF;
+     border-radius: 0 0 150px 0px;
+     padding:110px 0;
+}
+
+#sale-storage-2{
+    background-image: url(../../images/pngwing2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   padding-top:80px;
+}
+
+#learn{
+    background-image: url(../../images/bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1849C6;
+    border-radius: 150px 0 0px 0px;
+    padding:90px 0;
+}
+
+#learn .heading{
+    font-size: 20px;
+    color:#2F2F2F;
+
+}
+
+#learn .details{
+    font-size:12px;
+}
+
+@media only screen and (min-width:1240px){
+    /* #learn{
+        position: relative;
+        top: -140px;
+    } */
+    .title-head{
+        font-size:60px;
+        font-weight: bold;
+    }
+    
+}
+
+@media only screen and (max-width:1239px){
+    .title-head{
+        font-size:30px;
+        font-weight: bold;
+    }
+}
+
+#queries{
+    background-image: url(../../images/bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:110px 0;
+    background-color: #E8EFFF;
+
+}
+
+.reach{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.footer-widget{
+    font-size:14px;
+}
+.footer-widget .title{
+    font-size:18px;
+    font-weight:bold;
+}
+
+.footer-widget a{
+    color:#4A4A4A;
+    text-decoration: none;
+}
